@@ -1,0 +1,32 @@
+/* Full page */
+body {
+    margin :0;
+}
+
+
+
+/* Site navigation bar */
+.top_nav_bar {
+    background-color: gray;
+}
+
+
+/* Arena name bar */
+.arena_name {
+    background-color: darkgreen;
+}
+
+/* Main arena div */
+.arena_main {
+    background-color: black;
+}
+
+/* Skills bars */
+.skills_bars {
+    background-color: lightblue;
+}
+
+/* Footer */
+.footer {
+    background-color: blue;
+}
