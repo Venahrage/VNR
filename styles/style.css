@@ -1,9 +1,9 @@
 /* Full page */
 
-
 html {
     box-sizing: border-box;
 }
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
@@ -12,9 +12,8 @@ body {
     margin: 0;
 }
 
-
-
 /* Site navigation bar */
+
 .top_nav_bar {
     background-color: black;
 }
@@ -28,9 +27,9 @@ body {
 
 .top_nav_bar ul li {
     text-align: center;
-/*not sure */
+    /*not sure */
     width: 10%;
-/* */
+    /* */
 }
 
 .top_nav_bar ul li a {
@@ -38,9 +37,9 @@ body {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 24pt;
-/*not sure */
+    /*not sure */
     display: block;
-/* */
+    /* */
 }
 
 .top_nav_bar ul li a:hover {
@@ -51,23 +50,64 @@ body {
     margin-left: 60%;
 }
 
-
 /* Arena name bar */
+
 .arena_name {
-    background-color: darkgreen;
+    background-color: #00003b;
+    text-align: center;
+}
+
+.arena_name h3 {
+    margin: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30pt;
 }
 
 /* Main arena div */
+
 .arena_main {
-    background-color: lightsalmon;
+    background-color: white;
+    display: flex;
+}
+
+.arena_main div {
+    flex: auto;
+}
+
+div.player_hero_panel {
+    background-color: #336699
+}
+
+div.battle_arena {
+    background-color: black;
+}
+
+div.enemy_hero_panel {
+    background-color: #990000;
 }
 
 /* Skills bars */
+
 .skills_bars {
-    background-color: lightblue;
+    background-color: black;
+    display: flex;
+}
+
+.skills_bars div {
+    flex: auto;
+}
+
+div.player_hero_skill_bar {
+    background-color: #006699
+}
+
+div.enemy_hero_skill_bar {
+    background-color: #cc0000;
 }
 
 /* Footer */
+
 .footer {
-    background-color: blue;
+    background-color: black;
 }
