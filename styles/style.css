@@ -1,13 +1,54 @@
 /* Full page */
+
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
-    margin :0;
+    margin: 0;
 }
 
 
 
 /* Site navigation bar */
 .top_nav_bar {
-    background-color: gray;
+    background-color: black;
+}
+
+.top_nav_bar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.top_nav_bar ul li {
+    text-align: center;
+/*not sure */
+    width: 10%;
+/* */
+}
+
+.top_nav_bar ul li a {
+    color: gold;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+/*not sure */
+    display: block;
+/* */
+}
+
+.top_nav_bar ul li a:hover {
+    background-color: #404040;
+}
+
+#profile_link {
+    margin-left: 60%;
 }
 
 
