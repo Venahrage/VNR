@@ -2,6 +2,7 @@
 
 html {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 *, *::before, *::after {
@@ -16,6 +17,11 @@ body {
 
 .top_nav_bar {
     background-color: black;
+}
+
+.top_nav_bar img {
+    width: auto;
+    max-height: 1em;
 }
 
 .top_nav_bar ul {
@@ -35,7 +41,6 @@ body {
 .top_nav_bar ul li a {
     color: gold;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     font-size: 24pt;
     /*not sure */
     display: block;
@@ -67,7 +72,6 @@ body {
 /* Main arena div */
 
 .arena_main {
-    background-color: white;
     display: flex;
 }
 
@@ -76,15 +80,43 @@ body {
 }
 
 div.player_hero_panel {
-    background-color: #336699
+    background-color: #336699;
+}
+
+div.hero_img_nick_level, div.enemy_img_nick_level {
+    display: flex;
+    font-size: 28pt;
+}
+
+div.hero_img_nick_level img, div.enemy_img_nick_level img {
+    max-height: 2em;
+    width: auto;
+}
+
+div.health_bar, div.damage_bar {
+    font-size: 28pt;
 }
 
 div.battle_arena {
-    background-color: black;
+    background-size: cover;
+    background-image: url("../images/Northrend.png");
+}
+
+div.heroes_divs {
+    display: flex;
+}
+
+div.hero {
+    text-align: center;
 }
 
 div.enemy_hero_panel {
     background-color: #990000;
+}
+
+.hero_nick_in_arena {
+    font-size: 20pt;
+    color: white;
 }
 
 /* Skills bars */
@@ -95,6 +127,14 @@ div.enemy_hero_panel {
 }
 
 .skills_bars div {
+    flex: auto;
+}
+
+div.player_hero_skill_bar, div.enemy_hero_skill_bar {
+    display: flex;
+}
+
+.player_hero_skill_bar div, .enemy_hero_skill_bar {
     flex: auto;
 }
 
